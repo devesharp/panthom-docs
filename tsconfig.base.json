@@ -14,7 +14,9 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@phatom-docs/phantom-core": ["libs/phantom-core/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
